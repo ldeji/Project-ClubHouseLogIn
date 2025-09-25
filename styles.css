@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    border: 2px solid;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+    background-image: url("./image/brownlady.jpeg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.wrapperContent {
+    border: 2px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.wrapperContent > h1 {
+    font-family: "Raleway" sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.sideTabs {
+   margin-top: 5rem; 
+}
+
+.sideTabs > h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-family: "Bebas Neue" sans-serif;
+}
+.sideTabs > h5 {
+    color: #fff;
+    font-family: "Poppins" sans-serif;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    margin-block: 10px;
+}  
+.tabLinks{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}   
+.tabLinks > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    opacity: 0.4;
+}
+
+/* form side styling */
+.formContent {
+    
+    width: 28%;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+    filter: blur(.1px);
+    background-color: #704415a4;
+}
+
+.formContent > span {
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content:center;
+    border-radius: 10px;
+    float:right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.formContent > span > i {
+    color: white;
+}
+
+.formContent > h1 {
+    margin-top: 8rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat" sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+.formContent > p {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Montserrat" sans-serif;
+
+
+}
+
+form {
+    margin-top: 1rem;
+}
+
+.inputCont {
+    border-bottom: 1.7px dotted white;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+}
+
+.inputCont > label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+.inputCont > label > img {
+    width: 20px;
+}
+
+.inputCont > input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.btn {
+    width: 92%;
+    padding: 0.3rem 1rem;
+    border-radius: 35px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.btn > img {
+    width: 22px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-block: 1.5rem;
+}
+
+.socialIcons > a {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.socialIcons > a > img {
+    width: 18px;
+}
+
+form > h6 {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 40px;
+}
+
+form > h6 > a {
+    color: white;
+    font-weight: 600;
+    text-decoration:none;
+    text-transform: capitalize;
+}

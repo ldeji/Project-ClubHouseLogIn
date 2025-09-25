@@ -62,10 +62,9 @@
 
 /* form side styling */
 .formContent {
-    
-    width: 28%;
+    width: 30%;
     padding-inline: 1.5rem;
-    padding-block: 5rem;
+    padding-block: 3.5rem;
     filter: blur(.1px);
     background-color: #704415a4;
 }
@@ -84,6 +83,7 @@
 
 .formContent > span > i {
     color: white;
+    margin-top: 5px;
 }
 
 .formContent > h1 {
@@ -94,6 +94,7 @@
     font-size: 21px;
     font-weight: 600;
 }
+
 .formContent > p {
     text-transform: capitalize;
     color: #fff;
@@ -120,7 +121,6 @@ form {
     gap: 4px;
     color: #fff;
     font-size: 12px;
-    text-transform: capitalize;
     font-family: "Poppins", sans-serif;
 }
 
@@ -150,7 +150,7 @@ form {
 }
 
 .btn > img {
-    width: 22px;
+    width: 26px;
 }
 
 .socialIcons {

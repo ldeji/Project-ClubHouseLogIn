@@ -62,6 +62,7 @@
 
 /* form side styling */
 .formContent {
+    /* border: 3px solid red; */
     width: 30%;
     padding-inline: 1.5rem;
     padding-block: 3.5rem;
